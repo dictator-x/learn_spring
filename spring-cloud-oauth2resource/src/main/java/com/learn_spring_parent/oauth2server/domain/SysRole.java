@@ -1,4 +1,4 @@
-package com.learn_spring_parent.oauth2resource.domain;
+package com.learn_spring_parent.oauth2server.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
