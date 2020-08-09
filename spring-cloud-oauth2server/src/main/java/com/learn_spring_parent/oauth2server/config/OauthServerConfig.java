@@ -70,6 +70,7 @@ public class OauthServerConfig extends AuthorizationServerConfigurerAdapter {
     @Override
     public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
         endpoints.approvalStore(approvalStore())
+                .userDetailsService(userService)
                 .authenticationManager(authenticationManager)
                 .authorizationCodeServices(authorizationCodeServices())
                 .tokenStore(tokenStore());
