@@ -1,0 +1,6 @@
+description = "common"
+
+dependencies {
+    implementation 'io.jsonwebtoken:jjwt:0.9.1'
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.11.0'
+}

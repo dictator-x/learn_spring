@@ -1,0 +1,9 @@
+include 'common'
+include 'spring-auth-server'
+
+rootProject.name = "learn_spring_parent"
+
+rootProject.children.each {project ->
+    project.buildFileName = "${project.name}.gradle"
+}
+
