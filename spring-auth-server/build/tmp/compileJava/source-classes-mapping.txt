@@ -1,7 +1,7 @@
 com/learn_spring_parent/auth/config/WebSecurityConfig.java
  com.learn_spring_parent.auth.config.WebSecurityConfig
-com/learn_spring_parent/auth/dao/SysRoleDao.java
- com.learn_spring_parent.auth.dao.SysRoleDao
+com/learn_spring_parent/auth/controller/TestController.java
+ com.learn_spring_parent.auth.controller.TestController
 com/learn_spring_parent/auth/domain/SysUser.java
  com.learn_spring_parent.auth.domain.SysUser
 com/learn_spring_parent/auth/advice/HandlerControllerAdvice.java
@@ -18,7 +18,7 @@ com/learn_spring_parent/auth/service/UserService.java
  com.learn_spring_parent.auth.service.UserService
 com/learn_spring_parent/auth/config/RsaKeyProperty.java
  com.learn_spring_parent.auth.config.RsaKeyProperty
+com/learn_spring_parent/auth/dao/SysRoleDao.java
+ com.learn_spring_parent.auth.dao.SysRoleDao
 com/learn_spring_parent/auth/AuthServerApplication.java
  com.learn_spring_parent.auth.AuthServerApplication
-com/learn_spring_parent/auth/controller/TestController.java
- com.learn_spring_parent.auth.controller.TestController

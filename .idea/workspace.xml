@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3702ea7-2179-45df-b19c-c7893f04dd1e" name="Default Changelist" comment="" />
+    <list default="true" id="c3702ea7-2179-45df-b19c-c7893f04dd1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-basic-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-auth-server/src/main/java/com/learn_spring_parent/auth/AuthServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-basic-server/src/main/java/com/learn_spring_parent/basic/BasicServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-auth-server/src/main/java/com/learn_spring_parent/auth/advice/HandlerControllerAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-auth-server/src/main/java/com/learn_spring_parent/auth/config/RsaKeyProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-basic-server/src/main/java/com/learn_spring_parent/basic/config/RsaKeyProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-auth-server/src/main/java/com/learn_spring_parent/auth/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-basic-server/src/main/java/com/learn_spring_parent/basic/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-auth-server/src/main/java/com/learn_spring_parent/auth/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-basic-server/src/main/java/com/learn_spring_parent/basic/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-auth-server/src/main/java/com/learn_spring_parent/auth/dao/SysRoleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-auth-server/src/main/java/com/learn_spring_parent/auth/dao/SysUserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-auth-server/src/main/java/com/learn_spring_parent/auth/domain/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-basic-server/src/main/java/com/learn_spring_parent/basic/domain/SysRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-auth-server/src/main/java/com/learn_spring_parent/auth/domain/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-basic-server/src/main/java/com/learn_spring_parent/basic/domain/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-auth-server/src/main/java/com/learn_spring_parent/auth/filter/JwtLoginFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-auth-server/src/main/java/com/learn_spring_parent/auth/filter/JwtVerifyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-basic-server/src/main/java/com/learn_spring_parent/basic/filter/JwtVerifyFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-auth-server/src/main/java/com/learn_spring_parent/auth/service/UserService.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,10 +100,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1fpiRR26dMJNfMFK3ejxanayNlL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -91,7 +123,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-auth-server/src/main/java/com/learn_spring_parent/auth" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-basic-server/src/main/java/com/learn_spring_parent/basic" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -101,21 +133,25 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.learn_spring_parent.util" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.learn_spring_parent.auth.config" />
-      <recent name="com.learn_spring_parent.auth.service" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.learn_spring_parent.basic.controller" />
+      <recent name="com.learn_spring_parent.basic.config" />
+      <recent name="com.learn_spring_parent.basic" />
+      <recent name="com.learn_spring_parent.auth.config" />
+      <recent name="com.learn_spring_parent.auth.service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-basic-server/src/main/java/com/learn_spring_parent/basic" />
       <recent name="$PROJECT_DIR$/spring-auth-server/src/main/java/com/learn_spring_parent/auth" />
       <recent name="$PROJECT_DIR$/spring-auth-server" />
       <recent name="$PROJECT_DIR$/spring-auth-server/src/main/resources" />
       <recent name="$PROJECT_DIR$/spring-auth-server/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AuthServerApplication">
+  <component name="RunManager" selected="Spring Boot.BasicServerApplication">
     <configuration name="RsaUtilTest.generateKey" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -207,6 +243,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BasicServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="learn_spring_parent.spring-basic-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn_spring_parent.basic.BasicServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.AuthServerApplication" />
@@ -250,38 +293,38 @@
       <screen x="0" y="720" width="1920" height="1080" />
     </state>
     <state x="483" y="939" key="FileChooserDialogImpl/0.720.1920.1080/617.0.1280.720@0.720.1920.1080" timestamp="1596935865830" />
-    <state width="1132" height="186" key="GridCell.Tab.0.bottom" timestamp="1596944210745">
+    <state width="1043" height="186" key="GridCell.Tab.0.bottom" timestamp="1596948028150">
       <screen x="0" y="720" width="1920" height="1080" />
     </state>
-    <state width="1132" height="186" key="GridCell.Tab.0.bottom/0.720.1920.1080/617.0.1280.720@0.720.1920.1080" timestamp="1596944210745" />
-    <state width="1132" height="186" key="GridCell.Tab.0.center" timestamp="1596944210745">
+    <state width="1043" height="186" key="GridCell.Tab.0.bottom/0.720.1920.1080/617.0.1280.720@0.720.1920.1080" timestamp="1596948028150" />
+    <state width="1043" height="186" key="GridCell.Tab.0.center" timestamp="1596948028150">
       <screen x="0" y="720" width="1920" height="1080" />
     </state>
-    <state width="1132" height="186" key="GridCell.Tab.0.center/0.720.1920.1080/617.0.1280.720@0.720.1920.1080" timestamp="1596944210745" />
-    <state width="1132" height="186" key="GridCell.Tab.0.left" timestamp="1596944210745">
+    <state width="1043" height="186" key="GridCell.Tab.0.center/0.720.1920.1080/617.0.1280.720@0.720.1920.1080" timestamp="1596948028150" />
+    <state width="1043" height="186" key="GridCell.Tab.0.left" timestamp="1596948028150">
       <screen x="0" y="720" width="1920" height="1080" />
     </state>
-    <state width="1132" height="186" key="GridCell.Tab.0.left/0.720.1920.1080/617.0.1280.720@0.720.1920.1080" timestamp="1596944210745" />
-    <state width="1132" height="186" key="GridCell.Tab.0.right" timestamp="1596944210745">
+    <state width="1043" height="186" key="GridCell.Tab.0.left/0.720.1920.1080/617.0.1280.720@0.720.1920.1080" timestamp="1596948028150" />
+    <state width="1043" height="186" key="GridCell.Tab.0.right" timestamp="1596948028150">
       <screen x="0" y="720" width="1920" height="1080" />
     </state>
-    <state width="1132" height="186" key="GridCell.Tab.0.right/0.720.1920.1080/617.0.1280.720@0.720.1920.1080" timestamp="1596944210745" />
-    <state width="1132" height="186" key="GridCell.Tab.1.bottom" timestamp="1596944210745">
+    <state width="1043" height="186" key="GridCell.Tab.0.right/0.720.1920.1080/617.0.1280.720@0.720.1920.1080" timestamp="1596948028150" />
+    <state width="1043" height="186" key="GridCell.Tab.1.bottom" timestamp="1596948028150">
       <screen x="0" y="720" width="1920" height="1080" />
     </state>
-    <state width="1132" height="186" key="GridCell.Tab.1.bottom/0.720.1920.1080/617.0.1280.720@0.720.1920.1080" timestamp="1596944210745" />
-    <state width="1132" height="186" key="GridCell.Tab.1.center" timestamp="1596944210745">
+    <state width="1043" height="186" key="GridCell.Tab.1.bottom/0.720.1920.1080/617.0.1280.720@0.720.1920.1080" timestamp="1596948028150" />
+    <state width="1043" height="186" key="GridCell.Tab.1.center" timestamp="1596948028150">
       <screen x="0" y="720" width="1920" height="1080" />
     </state>
-    <state width="1132" height="186" key="GridCell.Tab.1.center/0.720.1920.1080/617.0.1280.720@0.720.1920.1080" timestamp="1596944210745" />
-    <state width="1132" height="186" key="GridCell.Tab.1.left" timestamp="1596944210745">
+    <state width="1043" height="186" key="GridCell.Tab.1.center/0.720.1920.1080/617.0.1280.720@0.720.1920.1080" timestamp="1596948028150" />
+    <state width="1043" height="186" key="GridCell.Tab.1.left" timestamp="1596948028150">
       <screen x="0" y="720" width="1920" height="1080" />
     </state>
-    <state width="1132" height="186" key="GridCell.Tab.1.left/0.720.1920.1080/617.0.1280.720@0.720.1920.1080" timestamp="1596944210745" />
-    <state width="1132" height="186" key="GridCell.Tab.1.right" timestamp="1596944210745">
+    <state width="1043" height="186" key="GridCell.Tab.1.left/0.720.1920.1080/617.0.1280.720@0.720.1920.1080" timestamp="1596948028150" />
+    <state width="1043" height="186" key="GridCell.Tab.1.right" timestamp="1596948028150">
       <screen x="0" y="720" width="1920" height="1080" />
     </state>
-    <state width="1132" height="186" key="GridCell.Tab.1.right/0.720.1920.1080/617.0.1280.720@0.720.1920.1080" timestamp="1596944210745" />
+    <state width="1043" height="186" key="GridCell.Tab.1.right/0.720.1920.1080/617.0.1280.720@0.720.1920.1080" timestamp="1596948028150" />
     <state width="1132" height="308" key="GridCell.Tab.2.bottom" timestamp="1596944115717">
       <screen x="0" y="720" width="1920" height="1080" />
     </state>
@@ -322,6 +365,11 @@
           <url>file://$PROJECT_DIR$/spring-auth-server/src/main/java/com/learn_spring_parent/auth/filter/JwtLoginFilter.java</url>
           <line>70</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-basic-server/src/main/java/com/learn_spring_parent/basic/filter/JwtVerifyFilter.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

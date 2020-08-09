@@ -1,5 +1,6 @@
 include 'common'
 include 'spring-auth-server'
+include 'spring-basic-server'
 
 rootProject.name = "learn_spring_parent"
 
