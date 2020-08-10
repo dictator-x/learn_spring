@@ -1,6 +1,6 @@
 package com.myspring.basic.config;
 
-import com.learn_spring_parent.util.RsaUtil;
+import com.myspring.util.RsaUtil;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;

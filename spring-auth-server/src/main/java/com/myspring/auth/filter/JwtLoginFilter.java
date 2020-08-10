@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.myspring.auth.config.RsaKeyProperty;
 import com.myspring.auth.domain.SysRole;
 import com.myspring.auth.domain.SysUser;
-import com.learn_spring_parent.util.JwtUtil;
+import com.myspring.util.JwtUtil;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;

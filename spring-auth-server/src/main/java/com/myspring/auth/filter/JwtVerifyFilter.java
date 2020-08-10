@@ -3,8 +3,7 @@ package com.myspring.auth.filter;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.myspring.auth.config.RsaKeyProperty;
 import com.myspring.auth.domain.SysUser;
-import com.learn_spring_parent.util.JwtUtil;
-import com.learn_spring_parent.util.JwtUtil.PayLoad;
+import com.myspring.util.JwtUtil;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -46,7 +45,7 @@ public class JwtVerifyFilter extends BasicAuthenticationFilter {
             out.close();
         } else {
             String token = header.replace("Bearer ", "");
-            PayLoad<SysUser> payLoad = JwtUtil.getPayLoadFromToken(token, prop.getPublicKey(), SysUser.class);
+            JwtUtil.PayLoad<SysUser> payLoad = JwtUtil.getPayLoadFromToken(token, prop.getPublicKey(), SysUser.class);
             SysUser user = payLoad.getUserInfo();
             if ( user != null ) {
                 UsernamePasswordAuthenticationToken authResult = new UsernamePasswordAuthenticationToken(user.getUsername(), null, user.getAuthorities());
