@@ -5,4 +5,5 @@ dependencies {
     //TODO: druid spring starter do not work with java 11 now.
     implementation libs.druidSpringStarter
     implementation project(":spring-cloud-commons")
+    implementation libs.netflixEurekaClientSpringStarter
 }

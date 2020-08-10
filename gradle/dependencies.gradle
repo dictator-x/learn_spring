@@ -22,5 +22,7 @@ libs += [
     log4j2Core: "org.apache.logging.log4j:log4j-core:$versions.log4j2Version",
     jodaTime: "joda-time:joda-time:$versions.jodaTimeVersion",
     lombok: "org.projectlombok:lombok:$versions.lombokVersion",
-    druidSpringStarter: "com.alibaba:druid-spring-boot-starter:$versions.druidSpringStarterVersion"
+    druidSpringStarter: "com.alibaba:druid-spring-boot-starter:$versions.druidSpringStarterVersion",
+    netflixEurekaServerSpringStarter: "org.springframework.cloud:spring-cloud-starter-netflix-eureka-server",
+    netflixEurekaClientSpringStarter: "org.springframework.cloud:spring-cloud-starter-netflix-eureka-client"
 ]

@@ -6,10 +6,10 @@ include 'spring-cloud-oauth2server'
 include 'spring-cloud-payment'
 include 'spring-cloud-order'
 include 'spring-cloud-commons'
+include 'spring-cloud-eureka'
 
 rootProject.name = "learn_spring_parent"
 
 rootProject.children.each {project ->
     project.buildFileName = "${project.name}.gradle"
 }
-
