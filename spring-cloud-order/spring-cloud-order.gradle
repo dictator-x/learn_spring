@@ -1,5 +1,7 @@
 description = "spring cloud order server"
 
 dependencies {
-    implementation project(":spring-cloud-common")
+    //implementation project(":spring-cloud-commons")
+    implementation project(":spring-cloud-commons")
+
 }
