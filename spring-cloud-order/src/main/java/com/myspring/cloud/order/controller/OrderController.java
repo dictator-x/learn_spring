@@ -12,18 +12,18 @@ import org.springframework.web.client.RestTemplate;
 
 @RestController
 public class OrderController {
-    private static final String PAYMENT_UTL = "http://localhost:9001";
+    private static final String PAYMENT_UTL = "http://SPRING-CLOUD-PAYMENT-SERVICE";
     private Logger logger = LoggerFactory.getLogger(OrderController.class);
 
     @Autowired
     private RestTemplate restTemplate;
 
-    @GetMapping("/order/create")
+    @GetMapping(value="/order/create", produces = "application/json; charset=utf-8")
     public CommonResult<Payment> create(Payment payment) {
         return restTemplate.postForObject(PAYMENT_UTL+"/payment/create", payment, CommonResult.class);
     }
 
-    @GetMapping("/order/get/{id}")
+    @GetMapping(value="/order/get/{id}",produces = "application/json; charset=utf-8")
     public CommonResult<Payment> getPayment(@PathVariable("id") Long id) {
         return restTemplate.getForObject(PAYMENT_UTL+"/payment/get/"+id, CommonResult.class);
     }

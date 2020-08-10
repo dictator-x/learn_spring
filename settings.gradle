@@ -7,6 +7,10 @@ include 'spring-cloud-payment'
 include 'spring-cloud-order'
 include 'spring-cloud-commons'
 include 'spring-cloud-eureka'
+include 'spring-cloud-eureka7001'
+include 'spring-cloud-eureka7002'
+include 'spring-cloud-payment8001'
+include 'spring-cloud-payment8002'
 
 rootProject.name = "learn_spring_parent"
 

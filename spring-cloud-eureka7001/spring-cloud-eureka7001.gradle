@@ -1,0 +1,4 @@
+description = "spring cloud eureka"
+dependencies {
+    implementation libs.netflixEurekaServerSpringStarter
+}
