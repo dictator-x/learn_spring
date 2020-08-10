@@ -1,0 +1,6 @@
+description = "spring cloud payment service"
+
+dependencies {
+    //TODO: put version in denpendency gradle
+    implementation "com.alibaba:druid-spring-boot-starter:1.1.23"
+}

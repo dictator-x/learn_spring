@@ -1,1 +1,4 @@
 description = "spring auth server"
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+}

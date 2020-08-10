@@ -3,6 +3,7 @@ include 'spring-auth-server'
 include 'spring-basic-server'
 include 'spring-cloud-oauth2resource'
 include 'spring-cloud-oauth2server'
+include 'spring-cloud-payment'
 
 rootProject.name = "learn_spring_parent"
 

@@ -26,8 +26,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
         http.csrf().disable();
         http.authorizeRequests().anyRequest().authenticated();
-        //http.addFilter(new JwtVerifyFilter(super.authenticationManager(), prop))
-         //       .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+        http.addFilter(new JwtVerifyFilter(super.authenticationManager(), prop))
+                .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
     }
 
 }
