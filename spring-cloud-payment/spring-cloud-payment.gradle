@@ -4,4 +4,5 @@ dependencies {
     //TODO: put version in denpendency gradle
     //TODO: druid spring starter do not work with java 11 now.
     implementation libs.druidSpringStarter
+    implementation project(":spring-cloud-common")
 }

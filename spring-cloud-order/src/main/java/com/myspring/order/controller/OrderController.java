@@ -1,7 +1,7 @@
 package com.myspring.order.controller;
 
-import com.myspring.order.domain.CommonResult;
-import com.myspring.order.domain.Payment;
+import com.myspring.cloud.common.domain.CommonResult;
+import com.myspring.cloud.common.domain.Payment;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

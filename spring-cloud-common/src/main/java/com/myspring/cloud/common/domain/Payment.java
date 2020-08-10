@@ -1,4 +1,4 @@
-package com.myspring.order.domain;
+package com.myspring.cloud.common.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

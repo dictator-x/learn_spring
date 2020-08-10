@@ -1,7 +1,6 @@
 package com.myspring.payment.service;
 
 import com.myspring.payment.dao.PaymentDao;
-import com.myspring.payment.domain.Payment;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
