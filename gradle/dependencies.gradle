@@ -9,7 +9,8 @@ versions += [
         junitJupiterVersion: "5.3.1",
         log4j2Version: "2.13.3",
         jodaTimeVersion: "2.10.6",
-        lombokVersion: "1.18.12"
+        lombokVersion: "1.18.12",
+        druidSpringStarterVersion: "1.1.23"
 ]
 
 libs += [
@@ -20,5 +21,6 @@ libs += [
     log4j2Api: "org.apache.logging.log4j:log4j-api:$versions.log4j2Version",
     log4j2Core: "org.apache.logging.log4j:log4j-core:$versions.log4j2Version",
     jodaTime: "joda-time:joda-time:$versions.jodaTimeVersion",
-    lombok: "org.projectlombok:lombok:$versions.lombokVersion"
+    lombok: "org.projectlombok:lombok:$versions.lombokVersion",
+    druidSpringStarter: "com.alibaba:druid-spring-boot-starter:$versions.druidSpringStarterVersion"
 ]
