@@ -1,6 +1,6 @@
-package com.myspring.cloud.eureka_hystrix.controller;
+package com.myspring.cloud.eureka_hystrix.payment.controller;
 
-import com.myspring.cloud.eureka_hystrix.service.PaymentService;
+import com.myspring.cloud.eureka_hystrix.payment.service.PaymentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -16,7 +16,8 @@ include 'spring-cloud-zookeeper-order'
 include 'spring-cloud-consul-payment'
 include 'spring-cloud-consul-order'
 include 'spring-cloud-feign-order'
-include 'spring-cloud-eureka_hystrix_payment'
+include 'spring-cloud-eureka_hystrix-payment'
+include 'spring-cloud-eureka_feign_hystrix-order'
 
 rootProject.name = "learn_spring_parent"
 

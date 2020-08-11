@@ -1,4 +1,4 @@
-package com.myspring.cloud.eureka_hystrix.config;
+package com.myspring.cloud.eureka_feign_hystrix.order.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
