@@ -38,4 +38,9 @@ public class PaymentController {
         if ( p != null ) return new CommonResult(200, "search success, serverPort: "+serverPort, p);
         return new CommonResult(444, "search fail", null);
     }
+
+    @GetMapping(value = "/payment/lb")
+    public String getPaymentLB() {
+        return serverPort;
+    }
 }
