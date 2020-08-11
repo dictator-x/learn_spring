@@ -1,4 +1,4 @@
-package com.myspring.cloud.consul.order;
+package com.myspring.cloud.eureka.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.myspring.cloud.consul.order.controller;
+package com.myspring.cloud.eureka.order.controller;
 
 import com.myspring.cloud.commons.domain.Payment;
 import com.myspring.cloud.commons.domain.CommonResult;

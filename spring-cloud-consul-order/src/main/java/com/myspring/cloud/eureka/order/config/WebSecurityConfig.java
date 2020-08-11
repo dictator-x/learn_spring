@@ -1,4 +1,4 @@
-package com.myspring.cloud.consul.order.config;
+package com.myspring.cloud.eureka.order.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

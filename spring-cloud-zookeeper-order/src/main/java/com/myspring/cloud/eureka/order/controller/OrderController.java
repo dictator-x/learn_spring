@@ -1,4 +1,4 @@
-package com.myspring.cloud.consul.order.controller;
+package com.myspring.cloud.eureka.order.controller;
 
 import com.myspring.cloud.commons.domain.Payment;
 import com.myspring.cloud.commons.domain.CommonResult;
@@ -12,11 +12,17 @@ import org.springframework.web.client.RestTemplate;
 
 @RestController
 public class OrderController {
-    private static final String PAYMENT_UTL = "http://SPRING-CLOUD-PAYMENT-SERVICE";
+    private static final String PAYMENT_UTL = "http://spring-cloud-payment-service";
     private Logger logger = LoggerFactory.getLogger(OrderController.class);
 
     @Autowired
     private RestTemplate restTemplate;
+
+    @GetMapping(value = "/order/zk")
+    public String paymentInfo() {
+        String result = restTemplate.getForObject(PAYMENT_UTL+"/payment/zk", String.class);
+        return result;
+    }
 
     @GetMapping(value="/order/create", produces = "application/json; charset=utf-8")
     public CommonResult<Payment> create(Payment payment) {
