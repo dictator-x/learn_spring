@@ -1,4 +1,4 @@
-package com.myspring.cloud.demo1;
+package com.myspring.cloud.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

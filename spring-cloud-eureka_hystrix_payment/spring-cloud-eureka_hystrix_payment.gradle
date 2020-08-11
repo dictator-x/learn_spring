@@ -1,0 +1,4 @@
+dependencies {
+    implementation libs.netflixHystrixSpringStarter
+    implementation libs.netflixEurekaClientSpringStarter
+}

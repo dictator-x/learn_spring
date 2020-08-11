@@ -16,9 +16,11 @@ include 'spring-cloud-zookeeper-order'
 include 'spring-cloud-consul-payment'
 include 'spring-cloud-consul-order'
 include 'spring-cloud-feign-order'
+include 'spring-cloud-eureka_hystrix_payment'
 
 rootProject.name = "learn_spring_parent"
 
 rootProject.children.each {project ->
     project.buildFileName = "${project.name}.gradle"
 }
+

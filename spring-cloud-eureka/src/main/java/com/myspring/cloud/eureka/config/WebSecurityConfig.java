@@ -1,4 +1,4 @@
-package com.myspring.cloud.demo1.config;
+package com.myspring.cloud.eureka.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
