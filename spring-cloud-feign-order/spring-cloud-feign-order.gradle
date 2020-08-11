@@ -1,0 +1,9 @@
+description = "spring cloud order server"
+
+dependencies {
+    //implementation project(":spring-cloud-commons")
+    implementation project(":spring-cloud-commons")
+    implementation libs.netflixEurekaClientSpringStarter
+    // Feign contains ribbon.
+    implementation libs.openFeignSpringStarter
+}

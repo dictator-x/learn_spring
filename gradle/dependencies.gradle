@@ -26,6 +26,7 @@ libs += [
     netflixEurekaServerSpringStarter: "org.springframework.cloud:spring-cloud-starter-netflix-eureka-server",
     netflixEurekaClientSpringStarter: "org.springframework.cloud:spring-cloud-starter-netflix-eureka-client",
     zookeeperDiscoverySpringStarter: "org.springframework.cloud:spring-cloud-starter-zookeeper-discovery",
-    consulDiscoverySpringStarter: "org.springframework.cloud:spring-cloud-starter-consul-discovery"
+    consulDiscoverySpringStarter: "org.springframework.cloud:spring-cloud-starter-consul-discovery",
+    openFeignSpringStarter:"org.springframework.cloud:spring-cloud-starter-openfeign"
 
 ]

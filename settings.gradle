@@ -15,6 +15,7 @@ include 'spring-cloud-zookeeper-payment'
 include 'spring-cloud-zookeeper-order'
 include 'spring-cloud-consul-payment'
 include 'spring-cloud-consul-order'
+include 'spring-cloud-feign-order'
 
 rootProject.name = "learn_spring_parent"
 
