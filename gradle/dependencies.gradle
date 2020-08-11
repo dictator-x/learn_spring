@@ -24,5 +24,8 @@ libs += [
     lombok: "org.projectlombok:lombok:$versions.lombokVersion",
     druidSpringStarter: "com.alibaba:druid-spring-boot-starter:$versions.druidSpringStarterVersion",
     netflixEurekaServerSpringStarter: "org.springframework.cloud:spring-cloud-starter-netflix-eureka-server",
-    netflixEurekaClientSpringStarter: "org.springframework.cloud:spring-cloud-starter-netflix-eureka-client"
+    netflixEurekaClientSpringStarter: "org.springframework.cloud:spring-cloud-starter-netflix-eureka-client",
+    zookeeperDiscoverySpringStarter: "org.springframework.cloud:spring-cloud-starter-zookeeper-discovery",
+    consulDiscoverySpringStarter: "org.springframework.cloud:spring-cloud-starter-consul-discovery"
+
 ]
