@@ -1,0 +1,15 @@
+server.port=9527
+spring.application.name=spring-cloud-gateway-service
+
+eureka.instance.hostname=spring-cloud-gateway-service
+eureka.client.register-with-eureka=true
+eureka.client.fetch-registry=true
+eureka.client.service-url.defaultZone=http://localhost:7000/eureka
+
+spring.cloud.gateway.routes[0].id=payment_rout1
+spring.cloud.gateway.routes[0].uri=http://localhost:8000
+spring.cloud.gateway.routes[0].predicates[0]=PATH=/payment/get/**
+#spring.cloud.gateway.routes[1].id=payment_rout2
+#spring.cloud.gateway.routes[1].uri=http://localhost:8000
+#spring.cloud.gateway.routes[1].predicates[0].name=Path
+#spring.cloud.gateway.routes[1].predicates[0].args=/payment/lb/**

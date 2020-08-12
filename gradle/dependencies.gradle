@@ -28,6 +28,7 @@ libs += [
     zookeeperDiscoverySpringStarter: "org.springframework.cloud:spring-cloud-starter-zookeeper-discovery",
     consulDiscoverySpringStarter: "org.springframework.cloud:spring-cloud-starter-consul-discovery",
     openFeignSpringStarter:"org.springframework.cloud:spring-cloud-starter-openfeign",
-    netflixHystrixSpringStarter: "org.springframework.cloud:spring-cloud-starter-netflix-hystrix"
+    netflixHystrixSpringStarter: "org.springframework.cloud:spring-cloud-starter-netflix-hystrix",
+    gatewaySpringStarter: "org.springframework.cloud:spring-cloud-starter-gateway"
 
 ]

@@ -1,8 +1,8 @@
-package com.myspring.cloud.demo1.payment.controller;
+package com.myspring.cloud.zookeeper.payment.controller;
 
-import com.myspring.cloud.commons.domain.Payment;
 import com.myspring.cloud.commons.domain.CommonResult;
-import com.myspring.cloud.demo1.payment.service.PaymentService;
+import com.myspring.cloud.commons.domain.Payment;
+import com.myspring.cloud.zookeeper.payment.service.PaymentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

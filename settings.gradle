@@ -18,6 +18,7 @@ include 'spring-cloud-consul-order'
 include 'spring-cloud-feign-order'
 include 'spring-cloud-eureka_hystrix-payment'
 include 'spring-cloud-eureka_feign_hystrix-order'
+include 'spring-cloud-gateway'
 
 rootProject.name = "learn_spring_parent"
 

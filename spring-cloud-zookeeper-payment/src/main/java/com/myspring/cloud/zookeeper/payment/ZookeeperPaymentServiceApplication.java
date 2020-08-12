@@ -1,4 +1,4 @@
-package com.myspring.cloud.demo1.payment;
+package com.myspring.cloud.zookeeper.payment;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

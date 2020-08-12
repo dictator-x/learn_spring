@@ -1,7 +1,7 @@
-package com.myspring.cloud.demo1.payment.service;
+package com.myspring.cloud.zookeeper.payment.service;
 
 import com.myspring.cloud.commons.domain.Payment;
-import com.myspring.cloud.demo1.payment.dao.PaymentDao;
+import com.myspring.cloud.zookeeper.payment.dao.PaymentDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
