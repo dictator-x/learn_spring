@@ -1,11 +1,11 @@
-description = "spring cloud config center"
+description = "spring cloud config rabbitmq client"
 
 dependencies {
     //implementation project(":spring-cloud-commons")
     implementation project(":spring-cloud-commons")
     implementation libs.netflixEurekaClientSpringStarter
-    implementation libs.springConfigServerStarter
-    implementation libs.rabbitMaBusSpringStarter
+    implementation libs.springConfigClientStarter
+
 }
 
 configurations {
