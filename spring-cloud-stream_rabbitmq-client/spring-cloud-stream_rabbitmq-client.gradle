@@ -1,15 +1,15 @@
-description = "spring cloud config rabbitmq client"
+description = "spring cloud stream rabbitmq client"
 
 dependencies {
-    //implementation project(":spring-cloud-commons")
+//implementation project(":spring-cloud-commons")
     implementation project(":spring-cloud-commons")
     implementation libs.netflixEurekaClientSpringStarter
-    implementation libs.springConfigClientStarter
+    implementation libs.streamRabbitSpringStarter
 }
 
 configurations {
     all {
-        // You need to exclude web for spring gateway.
+// You need to exclude web for spring gateway.
         exclude group: 'org.springframework.boot', module: 'spring-boot-starter-security'
         exclude group: 'org.springframework.boot', module: 'spring-boot-starter-data-jpa'
     }
