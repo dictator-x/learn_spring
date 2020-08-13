@@ -1,14 +1,15 @@
-description = "spring cloud gateway"
+description = "spring cloud config client"
 
 dependencies {
-    implementation libs.gatewaySpringStarter
+    //implementation project(":spring-cloud-commons")
+    implementation project(":spring-cloud-commons")
     implementation libs.netflixEurekaClientSpringStarter
+    implementation libs.springConfigClientStarter
 }
 
 configurations {
     all {
         // You need to exclude web for spring gateway.
-        exclude group: 'org.springframework.boot', module: 'spring-boot-starter-web'
         exclude group: 'org.springframework.boot', module: 'spring-boot-starter-security'
         exclude group: 'org.springframework.boot', module: 'spring-boot-starter-data-jpa'
     }

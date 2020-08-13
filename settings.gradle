@@ -19,10 +19,11 @@ include 'spring-cloud-feign-order'
 include 'spring-cloud-eureka_hystrix-payment'
 include 'spring-cloud-eureka_feign_hystrix-order'
 include 'spring-cloud-gateway'
+include 'spring-cloud-config-center'
+include 'spring-cloud-config-client'
 
 rootProject.name = "learn_spring_parent"
 
 rootProject.children.each {project ->
     project.buildFileName = "${project.name}.gradle"
 }
-

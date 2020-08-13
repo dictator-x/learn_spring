@@ -29,6 +29,8 @@ libs += [
     consulDiscoverySpringStarter: "org.springframework.cloud:spring-cloud-starter-consul-discovery",
     openFeignSpringStarter:"org.springframework.cloud:spring-cloud-starter-openfeign",
     netflixHystrixSpringStarter: "org.springframework.cloud:spring-cloud-starter-netflix-hystrix",
-    gatewaySpringStarter: "org.springframework.cloud:spring-cloud-starter-gateway"
+    gatewaySpringStarter: "org.springframework.cloud:spring-cloud-starter-gateway",
+    springConfigServerStarter: "org.springframework.cloud:spring-cloud-config-server",
+    springConfigClientStarter: "org.springframework.cloud:spring-cloud-config"
 
 ]

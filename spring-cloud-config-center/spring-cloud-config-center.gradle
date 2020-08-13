@@ -1,8 +1,10 @@
-description = "spring cloud gateway"
+description = "spring cloud config center"
 
 dependencies {
-    implementation libs.gatewaySpringStarter
+    //implementation project(":spring-cloud-commons")
+    implementation project(":spring-cloud-commons")
     implementation libs.netflixEurekaClientSpringStarter
+    implementation libs.springConfigServerStarter
 }
 
 configurations {
