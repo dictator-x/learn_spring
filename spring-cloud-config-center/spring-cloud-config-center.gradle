@@ -10,7 +10,6 @@ dependencies {
 configurations {
     all {
         // You need to exclude web for spring gateway.
-        exclude group: 'org.springframework.boot', module: 'spring-boot-starter-web'
         exclude group: 'org.springframework.boot', module: 'spring-boot-starter-security'
         exclude group: 'org.springframework.boot', module: 'spring-boot-starter-data-jpa'
     }
