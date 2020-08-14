@@ -11,7 +11,8 @@ versions += [
         jodaTimeVersion: "2.10.6",
         lombokVersion: "1.18.12",
         druidSpringStarterVersion: "1.1.23",
-        streamRabbitSpringVersion: "3.0.3.RELEASE"
+        streamRabbitSpringVersion: "3.0.3.RELEASE",
+        springCloudAlibabaVersion: "2.2.1.RELEASE"
 ]
 
 libs += [
@@ -35,5 +36,8 @@ libs += [
     springConfigClientStarter: "org.springframework.cloud:spring-cloud-starter-config",
     rabbitMaBusSpringStarter: "org.springframework.cloud:spring-cloud-starter-bus-amqp",
     //streamRabbitSpringStarter: "org.springframework.cloud:spring-cloud-starter-stream-rabbit:$versions.streamRabbitSpringVersion"
-    streamRabbitSpringStarter: "org.springframework.cloud:spring-cloud-stream-binder-rabbit"
+    streamRabbitSpringStarter: "org.springframework.cloud:spring-cloud-stream-binder-rabbit",
+    springCloudAlibabaStarter: "com.alibaba.cloud:spring-cloud-alibaba-dependencies:$versions.springCloudAlibabaVersion",
+    alibabaNacosSpringStarter:"com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery",
+    alibabaNacosConfigSpringStarter:"com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config"
 ]

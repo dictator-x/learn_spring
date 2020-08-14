@@ -5,8 +5,8 @@ include 'common'
 //include 'spring-cloud-oauth2server'
 //include 'spring-cloud-payment'
 //include 'spring-cloud-order'
-include 'spring-cloud-commons'
-include 'spring-cloud-eureka'
+//include 'spring-cloud-commons'
+//include 'spring-cloud-eureka'
 //include 'spring-cloud-eureka7001'
 //include 'spring-cloud-eureka7002'
 //include 'spring-cloud-payment8001'
@@ -19,15 +19,17 @@ include 'spring-cloud-eureka'
 //include 'spring-cloud-eureka_hystrix-payment'
 //include 'spring-cloud-eureka_feign_hystrix-order'
 //include 'spring-cloud-gateway'
-include 'spring-cloud-config-center'
-include 'spring-cloud-config-client'
-include 'spring-cloud-config_rabbit-client'
-include 'spring-cloud-stream_rabbitmq-client'
-include 'spring-cloud-stream_rabbitmq-provider'
+//include 'spring-cloud-config-center'
+//include 'spring-cloud-config-client'
+//include 'spring-cloud-config_rabbit-client'
+//include 'spring-cloud-stream_rabbitmq-client'
+//include 'spring-cloud-stream_rabbitmq-provider'
+include 'spring-alibaba-payment-provider'
+include 'spring-alibaba-order-consumer'
+include 'spring-alibaba-nacos-config-client'
 
 rootProject.name = "learn_spring_parent"
 
 rootProject.children.each {project ->
     project.buildFileName = "${project.name}.gradle"
 }
-

@@ -8,6 +8,7 @@ apply from: "$rootDir/gradle/dependencies.gradle"
 ext {
     springProject = subprojects.findAll { it.name.startsWith("spring-") }
     springCloudProject = subprojects.findAll { it.name.startsWith("spring-cloud") }
+    springCloudAlibabaProject = subprojects.findAll { it.name.startsWith("spring-alibaba") }
 }
 
 configure(allprojects) { p ->
@@ -65,6 +66,17 @@ configure(springCloudProject) { p ->
     dependencyManagement {
         imports {
             mavenBom libs.springCloudDependencies
+        }
+    }
+}
+
+configure(springCloudAlibabaProject) { p ->
+    dependencies {
+        implementation libs.alibabaNacosSpringStarter
+    }
+    dependencyManagement {
+        imports {
+            mavenBom libs.springCloudAlibabaStarter
         }
     }
 }
