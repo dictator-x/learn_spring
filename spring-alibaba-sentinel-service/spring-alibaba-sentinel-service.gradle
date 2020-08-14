@@ -1,7 +1,8 @@
-description = "spring cloud alibaba payment server"
+description = "spring cloud alibaba sentinel service"
 
 dependencies {
     implementation project(":spring-cloud-commons")
+    implementation libs.serntinelDataSoucreNacos
 }
 
 configurations {

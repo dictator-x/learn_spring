@@ -5,7 +5,7 @@ include 'common'
 //include 'spring-cloud-oauth2server'
 //include 'spring-cloud-payment'
 //include 'spring-cloud-order'
-//include 'spring-cloud-commons'
+include 'spring-cloud-commons'
 //include 'spring-cloud-eureka'
 //include 'spring-cloud-eureka7001'
 //include 'spring-cloud-eureka7002'
@@ -27,6 +27,7 @@ include 'common'
 include 'spring-alibaba-payment-provider'
 include 'spring-alibaba-order-consumer'
 include 'spring-alibaba-nacos-config-client'
+include 'spring-alibaba-sentinel-service'
 
 rootProject.name = "learn_spring_parent"
 

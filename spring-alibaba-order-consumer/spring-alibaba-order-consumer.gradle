@@ -1,6 +1,8 @@
 description = "spring cloud alibaba order consumer"
 
 dependencies {
+    implementation project(":spring-cloud-commons")
+    implementation libs.openFeignSpringStarter
 }
 
 configurations {

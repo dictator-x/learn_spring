@@ -73,10 +73,12 @@ configure(springCloudProject) { p ->
 configure(springCloudAlibabaProject) { p ->
     dependencies {
         implementation libs.alibabaNacosSpringStarter
+        implementation libs.alibabaSentinelSpringStarter
     }
     dependencyManagement {
         imports {
             mavenBom libs.springCloudAlibabaStarter
+            mavenBom libs.springCloudDependencies
         }
     }
 }

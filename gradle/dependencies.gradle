@@ -39,5 +39,7 @@ libs += [
     streamRabbitSpringStarter: "org.springframework.cloud:spring-cloud-stream-binder-rabbit",
     springCloudAlibabaStarter: "com.alibaba.cloud:spring-cloud-alibaba-dependencies:$versions.springCloudAlibabaVersion",
     alibabaNacosSpringStarter:"com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery",
-    alibabaNacosConfigSpringStarter:"com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config"
+    alibabaNacosConfigSpringStarter:"com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config",
+    alibabaSentinelSpringStarter: "com.alibaba.cloud:spring-cloud-starter-alibaba-sentinel",
+    serntinelDataSoucreNacos: "com.alibaba.csp:sentinel-datasource-nacos"
 ]
